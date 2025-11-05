@@ -41,18 +41,18 @@
 	logo1 = new Image
 	logo2 = new Image
 if (document.images) {
-	PrintButton1.src = "images/Print1.jpg"
-	PrintButton2.src = "images/Print2.jpg"
+	PrintButton1.src = "images/print1.jpg"
+	PrintButton2.src = "images/print2.jpg"
 	logo1.src = "images/logo1.jpg"
 	logo2.src = "images/logo2.jpg"
 }
 
 
 		var imgArray = new Array(
-			'Image1Lg.jpg',
-			'Image2Lg.jpg',
-			'Image3Lg.jpg',
-			'Image4Lg.jpg'
+			'image1lg.jpg',
+			'image2lg.jpg',
+			'image3lg.jpg',
+			'image4lg.jpg'
 			 
 
 		);
@@ -66,7 +66,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "Images/Fullsize/";
+		var imgPath = "images/fullsize/";
 		
 		function swapImage(imgID) {
 
@@ -104,7 +104,7 @@ if (document.images) {
 	<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
 	onMouseOut="document.PrintButton.src=PrintButton1.src;">
 
-	<img src="images/Print1.jpg" width="250" height="50" 
+	<img src="images/print1.jpg" width="250" height="50" 
 	name="PrintButton" alt="PrintButton" style="border:none;">
 
 	</a>
@@ -128,16 +128,16 @@ if (document.images) {
 
 
 <div id="thumbs">
-		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Couple Biking" onmouseover="swapImage(0);">
-		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Couple Cooking" onmouseover="swapImage(1);">
-		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Man Climbing" onmouseover="swapImage(2);">
-		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Man Snowboarding" onmouseover="swapImage(3);">
+		<img src="images/thumbnails/image1Sm.jpg" alt="Couple Biking" onmouseover="swapImage(0);">
+		<img src="images/thumbnails/image2Sm.jpg" alt="Couple Cooking" onmouseover="swapImage(1);">
+		<img src="images/thumbnails/image3Sm.jpg" alt="Man Climbing" onmouseover="swapImage(2);">
+		<img src="images/thumbnails/image4Sm.jpg" alt="Man Snowboarding" onmouseover="swapImage(3);">
 		
 </div>
 
 	<div id="image">
 
-		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Couple Biking">
+		<img id="theImage" src="images/fullSize/image1Lg.jpg" alt="Couple Biking">
 		<h3 id="bottomText">Couple Biking</h3>
 	</div>
 
