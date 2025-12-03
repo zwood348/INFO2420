@@ -34,7 +34,6 @@ a:hover {
 }
 
 p{
-	background-color: #FFFFFF;
     color: #042037;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -46,13 +45,14 @@ blockquote {
     color: #0E573A;              
     font-style: italic;
 	margin: 0;
+	margin-right: 30%;
 }
 
 
 body {
+	background-color: #74ae96;
 	width: auto;
 	margin: 0;
-	background-image: url("images/2colback.jpg");
 	font-family: Arial, Helvetica, sans-serif;
 	height: auto;
 }
@@ -67,8 +67,9 @@ header {
 
 section {
 	width: 900px;
-	background-color: #FFFFFF;
 	margin: auto;
+	background-image: url("images/2colbackflipped.jpg");
+	background-repeat: repeat-y;
 
 }
 
@@ -86,9 +87,9 @@ article {
 
 
 footer {
+	background-color: #74ae96;
 	text-align: center;
 	width: 900px;
-	background-color: #FFFFFF;
 	margin: auto;
 	clear: both;
 }
@@ -101,7 +102,7 @@ footer {
 
 .tributeright{
 	float: right;
-	padding: 10px
+	margin-right: 10%;
 }
 
 nav a {
