@@ -6,6 +6,7 @@
 <title>Extreme Honeymoons - Home Page</title>
 <!-- TemplateEndEditable -->
 <link href="../mystyles.css" rel="stylesheet" type="text/css">
+<link href="../print.css" rel="stylesheet" type="text/css" media="print">
 <script type="text/javascript" src="../myscript.js"></script>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
