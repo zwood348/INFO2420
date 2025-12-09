@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 { 
+    color: #D4A86A;
+    background-color: #123552;
+    padding: 10px; 
+    font-size: 250%; 
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 8px;
+	margin-right:30%;
+	margin-top: 0%;
+}   
+h2 { 
+    color: #805315; 
+    font-size: 150%; 
+    font-family:'Times New Roman', Times, serif;
+	margin: 0;
+}  
+h3 { 
+    color: #496C89; 
+    font-size: 120%; 
+    font-family:'Times New Roman', Times, serif;
+}  
+
+a:link { 
+    color: #277455;
+}     
+a:visited { 
+    color: #553100; 
+}  
+a:hover { 
+    color: #AA5A39; 
+}
+
+p{
+    color: #042037;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+	margin-right: 30%;
+}
+
+blockquote {
+    color: #0E573A;              
+    font-style: italic;
+	margin: 0;
+	margin-right: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+body {
+	background-color: #74ae96;
+	width: auto;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	height: auto;
+}
+
+
+header {
+	width: 900px;
+	background-color: #718da5;
+	text-align: center;
+	margin: auto;
+}
+
+section {
+	width: 900px;
+	margin: auto;
+	background-image: url("images/2colbackflipped.jpg");
+	background-repeat: repeat-y;
+
+}
+
+nav {
+	float: right;
+	width: 30%;
+}
+
+
+article {
+	width: 800px;
+	margin: auto;
+
+}
+
+
+footer {
+	background-color: #74ae96;
+	text-align: center;
+	width: 900px;
+	margin: auto;
+	clear: both;
+}
+
+.logoleft {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.tributeright{
+	float: right;
+	margin: 5%;
+}
+
+.comingsoon{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.nobackground{
+	background-image: url(#);
+	background-color: transparent;
+}
+
+.h1 {
+	margin: auto;
+}
+
+.center{
+	text-align: center;
+}
+
+nav a {
+	border: 2px inset gray;
+	background-color: #FFFFFF;
+	line-height: 250%;
+	color: #277455;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+	
+}
+
+nav a:hover{
+	color: #AA5A39;
+	border: 2px outset gray;
+}
+
+#thumbs{
+	text-align: center;
+	margin-right: 30%;
+}
+
+#image{
+	margin-right: 30%;
+	text-align: center
+}
+
+td {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    background-color: #FFDBAA;
+    color: #003A23;
+}
+
+th {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    background-color: #003A23;
+    color: #FFDBAA;
+}
+
+table {
+    margin: 20px auto;
+    width: 100%;
+    padding: 5px;
+    border-spacing: 5px;
+
+}
+
+table caption {
+    font-family: 'BleedingCowboys', 'Times New Roman', Times, serif;
+    background-color:#003A23;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 8px;
+    border: 3px solid black;
+    color: #FFDBAA;
+}
