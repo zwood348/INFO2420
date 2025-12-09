@@ -17,7 +17,7 @@
 
 	<header>
 	<div id="logo">
-	<a href="#" onMouseOver="document.logo.src=logo2.src;"
+	<a href="../index.html" onMouseOver="document.logo.src=logo2.src;"
 	onMouseOut="document.logo.src=logo1.src;">
 
 	<img class="logoleft" src="../images/logo1.gif" width="133" height="126" 
